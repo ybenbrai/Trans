@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: #fbfefb;
+}
+
+.bg {
+  z-index: -1;
+}
+.bg span {
+  position: fixed;
+  box-shadow: 4px 4px 10px #343a40;
+  animation: animate linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(200%);
+  }
+  100% {
+    transform: translate(-200%);
+  }
+}
